@@ -1,0 +1,50 @@
+html {
+    background: linear-gradient(to right,rgb(225, 159, 224), #9a78e0);
+    
+}
+article.card {
+    transition: box-shadow 0.5s ease-in;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 18px;
+    opacity: 0.8;
+    width: 327px;
+    padding: 25px;
+    padding-top: 27px;
+    margin: 10px;
+    vertical-align: top;
+}
+article.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.416);
+
+}
+section article h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    width: 240px;
+}
+
+section article img.small{
+    height: 10.2em;
+    width: 20.5em;
+}
+section article img.big{
+    height: 20.5em;
+    width: 20.5em;
+}
+
+section article time{
+    font-family: 'Montserrat', italic;
+    font-size: 14px;
+}
+.big{
+    height: 470px;
+}
+
+.small{
+    height: 307px;
+}
+
+#pepe{
+    padding:40px 30px;
+}
